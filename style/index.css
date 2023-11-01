@@ -1,1 +1,139 @@
-/* CSS stillerinizi buraya girin */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1.2px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(138, 137, 137);
+  padding-top: 15px;
+  padding-bottom: 25px;
+  background-color: #f9f9f9;
+}
+header nav {
+  display: flex;
+}
+header nav a {
+  padding: 1em;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 40px;
+  color: black;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+header nav a:hover {
+  color: #0ba2c0;
+  transition: color 0.25s ease;
+}
+header .logo {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  background: #eae7f8;
+  margin-left: 175px;
+}
+
+main {
+  display: block;
+  padding: 50px;
+}
+main div {
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  margin-left: 50px;
+  font-weight: 400;
+}
+
+main img {
+  width: 250px;
+  height: 270px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 450px;
+  border-radius: 100%;
+  border: 1px solid #645aec;
+}
+main span {
+  font-weight: bold;
+  font-size: 20px;
+  color: #201886;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+h2 a {
+  color: #000;
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+  justify-content: center;
+}
+.images {
+  height: 300px;
+  width: 300px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 4px #000;
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+  height: 130px;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+footer h3 {
+  padding-top: 15px;
+}
+footer p {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+footer button {
+  width: 100px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px #000;
+}
+button a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+footer i {
+  margin: 10px 5px;
+  font-size: 30px;
+  color: #000;
+}
